@@ -1,0 +1,43 @@
+{
+  "name": "uni-ui-components-types",
+  "version": "1.0.0",
+  "description": "uni-app 扩展组件 uni-ui 的类型文件",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["uni-app"],
+  "author": {
+    "name": "satrong",
+    "email": "satrong@163.com",
+    "url": "https://xiaoboy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:satrong/uni-ui-components-types.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/parser": "^7.17.3",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.17.0",
+    "@dcloudio/uni-ui": "^1.4.12",
+    "@types/babel__traverse": "^7.14.2",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "16",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "fs-extra": "^10.0.1",
+    "typescript": "^4.6.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "files": [
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ]
+}
