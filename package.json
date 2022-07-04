@@ -1,11 +1,13 @@
 {
   "name": "uni-ui-components-types",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "uni-app 扩展组件 uni-ui 的类型文件",
   "scripts": {
     "dev": "ts-node src/index.ts"
   },
-  "keywords": ["uni-app"],
+  "keywords": [
+    "uni-app"
+  ],
   "author": {
     "name": "satrong",
     "email": "satrong@163.com",
@@ -39,5 +41,8 @@
     "index.d.ts",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "dependencies": {
+    "vue3": "npm:vue@3"
+  }
 }
